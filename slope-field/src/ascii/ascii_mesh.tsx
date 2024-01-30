@@ -227,20 +227,22 @@ function setupMeshData(
       bottomRow = 0 + scroll,
       col = 2;
 
-    insertText(text, "HERE", width * (topRow - 3) + col);
-    insertText(text, "NOT", width * (topRow - 5) + col);
-    insertText(text, "THERE", width * (topRow - 7) + col);
+    insertText(text, "BRANDON HUNTER", width * (topRow - 3) + col);
+    // insertText(text, "HERE", width * (topRow - 3) + col);
+    // insertText(text, "NOT", width * (topRow - 5) + col);
+    // insertText(text, "THERE", width * (topRow - 7) + col);
 
     if (mode === "home") {
       let l = 1;
-      if (EXPERIMENTS_ENABLED) {
-        insertText(text, "EXPERIMENTS", width * (bottomRow + l++ * 2) + col);
-      }
-      insertText(text, "CONTACT", width * (bottomRow + l++ * 2) + col);
-      insertText(text, "TWITTER", width * (bottomRow + l++ * 2) + col);
-      insertText(text, "CAREERS", width * (bottomRow + l++ * 2) + col);
-      insertText(text, "UPDATES", width * (bottomRow + l++ * 2) + col);
-      insertText(text, "TOWNS", width * (bottomRow + l++ * 2) + col);
+      // if (EXPERIMENTS_ENABLED) {
+      //   insertText(text, "EXPERIMENTS", width * (bottomRow + l++ * 2) + col);
+      // }
+      // insertText(text, "CONTACT", width * (bottomRow + l++ * 2) + col);
+      // insertText(text, "TWITTER", width * (bottomRow + l++ * 2) + col);
+      // insertText(text, "CAREERS", width * (bottomRow + l++ * 2) + col);
+      // insertText(text, "UPDATES", width * (bottomRow + l++ * 2) + col);
+      // insertText(text, "TOWNS", width * (bottomRow + l++ * 2) + col);
+      insertText(text, "CONNECTING DOTS & MAKING STUFF", width * (bottomRow + l++ * 2) + col);
     } else {
       let l = 1;
       insertText(text, "<BACK", width * (bottomRow + l++ * 2) + col);
